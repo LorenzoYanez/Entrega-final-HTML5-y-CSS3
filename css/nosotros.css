@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-color: #424530;
+}
+
+.navbar-1{
+    background-color: #424530;
+}
+
+img{
+    max-width: 100vh;
+}
+
+.header{
+    background-image: url(../img/Barista1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 80px 0 0 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-txt{
+    text-align: center;
+    align-items: center;
+    border-top: 40px;
+}
+
+.header-txt h1{
+    font-size: 85px;
+    line-height: 1;
+    color: #ffefcd;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 80px;
+}
+
+.header-txt p{
+    font-size: 17px;
+    color: #ffefcd;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    color: #e09132;
+    text-transform: uppercase;
+    background-color: #424530;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #424530;
+}
+
+.footer{
+    background-color: #424530;
+    color: #ffefcd;
+}
+
+.footer-2 h4{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: #424530 ;
+        backdrop-filter: blur(10px);
+    }
+}

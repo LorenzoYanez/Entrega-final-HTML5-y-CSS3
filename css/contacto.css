@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-color: #a58e74;
+}
+
+.navbar-1{
+    background-color: #424530;
+}
+
+.header-txt{
+    color: #ffefcd;
+    text-align: center;
+    margin-top: 35px;
+}
+  
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+  
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #424530;
+}
+  
+fieldset:last-of-type {
+    border-bottom: none;
+}
+  
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+  
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+  
+input, textarea {
+    background-color: #ffefcd;
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:#424530;
+    border-color: #ffefcd;
+    min-width: 300px;
+    border-radius: 25px;
+    color: #e09132;
+}
+  
+input[type="file"] {
+    padding: 1px 2px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+.footer{
+    background-color: #424530;
+    color: #ffefcd;
+}
+
+.footer-2 h4{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: #424530 ;
+        backdrop-filter: blur(10px);
+    }
+}
